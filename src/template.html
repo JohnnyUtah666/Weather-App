@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    
+    <div id="formAndErrorContainer">
+        <form id="form">
+            <input id="locationInput" type="text" placeholder="Search City">
+        </form>
+        <div id="errorDiv"></div>
+    </div>
+
+    <div id="mainContainer">
+        <div id="icon">
+            <img src="../src/images/sunny_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png">
+        </div>
+        <div id="nameAndInfoWrapper">
+            <div id="nameContainer">
+                <div id="cityName"></div>
+            </div>
+            <div id="infoContainer">
+                <div id="tempDivContainer">
+                    <div id="temperature"></div>
+                    <button id="toggle"></button>
+                </div>
+                <div id="subContainer">
+                    <div id="feelsLike"></div>
+                    <div id="conditions"></div>
+                    <div id="windSpeed"></div>
+                    <div id="humidity"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
